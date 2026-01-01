@@ -8,7 +8,7 @@ Roll No.: 25115020
 ## Day 1:
 index.html :
 <br>
-<img height="500" alt="Image" src="https://github.com/user-attachments/assets/a21536e2-e97c-400d-8d8a-23ceec337a7e" />
+<img height="500" alt="Image" src="https://github.com/user-attachments/assets/a2f54e80-76ae-496b-8f88-196221981656" />
 <br><br>
 <img height="500" alt="Image" src="https://github.com/user-attachments/assets/d73cda92-c9b7-4569-872f-0e052a91ca31" />
 about.html :

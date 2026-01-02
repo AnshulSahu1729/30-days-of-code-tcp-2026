@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <h1>Coding Workshop</h1>
+    <h4>(National Institute of Technology, Raipur)</h4>
+    <hr>
+    <section>
+        <h2>Event Schedule : </h2>
+        <p>Date: 15 January 2026</p>
+        <table border="1" cellspacing="0" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Venue</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>8:00 AM</td>
+                    <td>Reporting</td>
+                    <td>HIRA Hall</td>
+                </tr>
+                <tr>
+                    <td>8:30 AM - 9:30 AM</td>
+                    <td>Introduction to Workshop</td>
+                    <td>HIRA Hall</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">10:00 AM - 1:00 PM</td>
+                    <td>Web Development Workshop</td>
+                    <td>F-40</td>
+                </tr>
+                <tr>
+                    <td>Python Workshop</td>
+                    <td>S-11</td>
+                </tr>
+                <tr>
+                    <td>C++ Workshop</td>
+                    <td>F-42</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM - 2:00 PM</td>
+                    <td>Lunch</td>
+                    <td>Left Garden</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">2:00 PM - 5:00 PM</td>
+                    <td>Web Development Workshop</td>
+                    <td>F-40</td>
+                </tr>
+                <tr>
+                    <td>Python Workshop</td>
+                    <td>S-11</td>
+                </tr>
+                <tr>
+                    <td>C++ Workshop</td>
+                    <td>F-42</td>
+                </tr>
+                <tr>
+                    <td>5:15 PM - 6:00 PM</td>
+                    <td>Closing Ceremony</td>
+                    <td>HIRA Hall</td>
+                </tr>
+                </tbody>
+        </table>
+    </section>
+    <br><hr>
+    <section>
+        <h2>Registration Form : </h2>
+        <form action="/action.php" method="get">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name">
+            <br><br>
+            <label for="email">Email : </label> 
+            <input type="email" name="email" id="email" placeholder="Enter your Email Address">
+            <br><br>
+            <label for="phone_number">Phone Number : </label>
+            <input type="number" name="phone_number" id="phone_number" placeholder="Enter your Phone Number">
+            <br><br>
+            <label for="dob">Date of Birth : </label>
+            <input type="date" name="dob" id="dob">
+            <br><br>
+            <fieldset>
+                <legend>Select Ticket Type : </legend>
+                <label><input type="radio" name="ticket" value="Regular">Regular (Fee= Rs. 500)</label><br>
+                <label><input type="radio" name="ticket" value="Student- Other College">Student- Other College (Fee= Rs. 200)</label><br>
+                <label><input type="radio" name="ticket" value="Student- NIT Raipur">Student- NIT Raipur (Fee= Rs. 0)</label><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Workshop Preference</legend>
+                <label for="webdev"><input type="checkbox" name="workshop_pref" id="webdev">Web Development Workshop</label><br>
+                <label for="python"><input type="checkbox" name="workshop_pref" id="python">Python Workshop</label><br>
+                <label for="cpp"><input type="checkbox" name="workshop_pref" id="cpp">C++ Workshop</label><br>
+            </fieldset>
+            <br>
+            <label for="comment">Comments : </label><br>
+            <textarea name="comment" id="comment" placeholder="Add a comment..." rows="5"></textarea>
+            <br><br>
+            <input type="submit">
+            <br><br><br>
+        </form>
+    </section>
+</body>
+</html>

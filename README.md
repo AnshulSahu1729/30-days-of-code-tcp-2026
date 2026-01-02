@@ -14,5 +14,8 @@ index.html :
 about.html :
 <br>
 <img height="500" alt="Image" src="https://github.com/user-attachments/assets/de098cf2-82f5-4b12-aeae-7aa53f286101" />
-
-
+<br><br>
+## Day 2:
+event.html:
+<br>
+<img height="1000" alt="Image" src="https://github.com/user-attachments/assets/72a32fd3-ee5b-413e-84dc-5edcbb89bb6c" />

@@ -8,14 +8,23 @@ Roll No.: 25115020
 ## Day 1:
 index.html :
 <br>
-<img height="500" alt="Image" src="https://github.com/user-attachments/assets/a2f54e80-76ae-496b-8f88-196221981656" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/a2f54e80-76ae-496b-8f88-196221981656" />
 <br><br>
-<img height="500" alt="Image" src="https://github.com/user-attachments/assets/d73cda92-c9b7-4569-872f-0e052a91ca31" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/d73cda92-c9b7-4569-872f-0e052a91ca31" />
 about.html :
 <br>
-<img height="500" alt="Image" src="https://github.com/user-attachments/assets/de098cf2-82f5-4b12-aeae-7aa53f286101" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/de098cf2-82f5-4b12-aeae-7aa53f286101" />
 <br><br>
 ## Day 2:
 event.html:
 <br>
-<img height="1000" alt="Image" src="https://github.com/user-attachments/assets/72a32fd3-ee5b-413e-84dc-5edcbb89bb6c" />
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/72a32fd3-ee5b-413e-84dc-5edcbb89bb6c" />
+<br><br>
+## Day 3:
+index.html : 
+<br>
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/18dc5f0e-1fed-4b6d-9517-64b24d846124" />
+<br><br>
+about.html :
+<br>
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/3ec1832d-1373-455e-926a-f07ea09c5d03" />

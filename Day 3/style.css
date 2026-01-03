@@ -1,0 +1,87 @@
+:root{
+    --primary-color:black;
+    --bg-color:azure;
+}
+
+*{
+    font-family: Arial;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    margin: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+p{
+    font-size: 24;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+#navbar{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#profile_pic_id{
+    display: flex;
+    justify-content: center;
+
+}
+#profile_pic{
+    border:5px solid lightgrey;
+    border-radius: 50%;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: cyan;
+}
+a:active{
+    color: darkcyan;
+}
+
+.sections{
+    margin: 20px 0px 20px 0px;
+    padding: 20px;   
+}
+
+.btn{
+    background-color: aquamarine;
+    padding: 20px 50px 20px 50px;
+    border: 3px solid #004589;
+    border-radius: 15px;
+    transition: background-color 1s;
+}
+.btn:hover{
+    background-color:darkturquoise;
+}
+
+#skills{
+    border:3px solid #004589; 
+    padding: 20px;
+    border-radius: 15px;
+}

@@ -1,0 +1,160 @@
+* {
+    color: white;
+    background-color: black;
+    font-family: Arial;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo_img {
+    height: 80px;
+}
+
+nav {
+    display: inline-flex;
+    width: 250px;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+@keyframes slideup {
+    from {
+        transform: translatey(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+#hero {
+    background-image: radial-gradient(ellipse, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.25) 100%), url(bg_image.jpg);
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#headline {
+    background-color: transparent;
+    text-align: center;
+    margin: 30px 300px;
+    font-size: 100px;
+    font-weight: 700;
+    animation: slideup 1s ease-out;
+}
+
+#description {
+    background-color: transparent;
+    text-align: center;
+    margin: 0px 250px;
+    font-size: 24px;
+}
+
+#get_started {
+    background-color: transparent;
+}
+
+#get_started_button {
+    height: 60px;
+    width: 230px;
+    background-color: red;
+    font-size: 30px;
+    /* border: 3px solid whitesmoke; */
+    border-radius: 10px;
+    margin: 50px;
+    transition-duration: 0.5s;
+}
+
+#get_started_anchor {
+    display: block;
+    background-color: transparent;
+}
+
+#get_started_button:hover {
+    background-color: rgb(136, 2, 2);
+
+}
+
+#features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.text {
+    background-color: transparent;
+}
+
+.features {
+    margin: 30px;
+    padding: 20px;
+    width: 230px;
+    background-image: linear-gradient(to bottom right, blue, red);
+    border: 2px solid gray;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features:hover {
+    transform: scale(1.25);
+    border-color: red;
+}
+
+#pricing_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+#pricingheadingdiv {
+    text-align: center;
+}
+
+#pricing_content {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 255), rgb(255, 0, 0));
+    margin: 30px;
+    padding: 30px;
+    line-height: 50px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.pricing:hover {
+    transform: scale(1.25);
+}
+
+.footer {
+    padding-left: 30px;
+}

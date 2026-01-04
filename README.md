@@ -28,3 +28,8 @@ index.html :
 about.html :
 <br>
 <img width="800" alt="Image" src="https://github.com/user-attachments/assets/3ec1832d-1373-455e-926a-f07ea09c5d03" />
+<br><br>
+## Day 4:
+landing.html : 
+<br>
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/78c2605a-db7e-4afd-9c32-28b4b5d136e2" />

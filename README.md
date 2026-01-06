@@ -33,6 +33,15 @@ about.html :
 landing.html : 
 <br>
 <img width="800" alt="Image" src="https://github.com/user-attachments/assets/78c2605a-db7e-4afd-9c32-28b4b5d136e2" />
+<br><br>
 ## Day 5:
 <br>
 <img width="800" alt="Image" src="https://github.com/user-attachments/assets/f3cb2da8-9c9c-4312-bef7-49f9bc6cad23" />
+<br>
+
+## Day 6:
+<br>
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/1b4206fd-2910-4251-85eb-f08a835b7794" />
+<br>
+
+

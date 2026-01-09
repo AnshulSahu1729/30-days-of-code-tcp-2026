@@ -57,3 +57,7 @@ landing.html :
 ## Day 8:
 <img width="800" alt="Image" src="https://github.com/user-attachments/assets/f2e9c6d0-70ef-4433-a654-a118218b521c" />
 
+
+## Day 9:
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/a99cf1b5-fbaf-476f-b48a-b1ef2d786ec2" />
+
